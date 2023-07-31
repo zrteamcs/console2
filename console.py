@@ -3,7 +3,7 @@ import json
 import os
 
 soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-soc.bind(('192.168.128.131', 9999))
+soc.bind(('24.199.99.159', 9999))
 print('menunggu koneksi ...')
 soc.listen(1)
 
